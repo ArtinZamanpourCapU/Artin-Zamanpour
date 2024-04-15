@@ -28,6 +28,11 @@ x = 0
 while x < 10:
     x = x + 2
     print(x)
+2
+4
+6
+8
+10
 
 #---------------------------------------------------------
 # Exercise 2 (40 marks) - Fix the semantic error below, to make it calculate the area of the rectangle correctly.
@@ -40,28 +45,30 @@ while x < 10:
 # Or you can use ''' ''' or """ """ to create a multiline string or a docstring. 
 #---------------------------------------------------------
 
-print("There is a rectangle, of which one side is 3 and the other side is 4.") # This line prints a string.
+print("There is a rectangle, of which one side is 3 and the other side is 4.") 
+# This line prints a string.
 side_1 = 3
 side_2 = 4
-print(f"I think the area of the rectangle is: {side_1 + side_2}.") # This line prints a f-string, including variables in a string.
+print(f"I think the area of the rectangle is: {side_1 * side_2}.") 
+# This line prints a f-string, including variables in a string.
 
 
 #---------------------------------------------------------
 # Exercise 3 (50 marks) - Write a letter to your instructor
 #---------------------------------------------------------
 
-my_instructor_name = "COMP115 class 😄" # Change to "Alice 😄"
-my_name = "Alice" # Change to your name
-my_github_account = "https://github.com/COMP115-Bravo" # Change to your GitHub account
-my_hobby = "hockey" # Change to your hobby
+my_instructor_name = "Alice 😄" # Change to "Alice 😄"
+my_name = "Artin" # Change to your name
+my_github_account = "https://github.com/ArtinZamanpourCapU" # Change to your GitHub account
+my_hobby = "football" # Change to your hobby
 hours_coding_per_week = "5" # How many hours per week would you like to devote to learn coding?
 
 coding_experience_types = ["newbie", "beginner", "intermediate", "advanced"]
-my_coding_experience = coding_experience_types[3] 
+my_coding_experience = coding_experience_types[2] 
 
-project_types = ["game developing", "website application", "data analysis", "machine learning"]
+project_types = ["game developing", "website application", "data analysis", "machine learning", "so on"]
 project_interested = project_types[2]
-project_another_interested = project_types[3] # Try to change the index from 3 to 4, and run the program :)
+project_another_interested = project_types[4] # Try to change the index from 3 to 4, and run the program :)
 
 
 print(f"""
